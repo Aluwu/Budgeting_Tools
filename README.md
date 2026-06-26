@@ -1,7 +1,3 @@
-# McLeod Budgeting
-
-> A clean, local-first budgeting app for tracking income, expenses, savings, and month-to-month cash carryover.
-
 ## What it does
 
 McLeod Budgeting is a personal finance dashboard built for fast monthly planning without a backend. Everything is stored in browser `localStorage`, so the app works as a static site and keeps your data on your device.
