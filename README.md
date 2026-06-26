@@ -2,11 +2,9 @@
 
 > A clean, local-first budgeting app for tracking income, expenses, savings, and month-to-month cash carryover.
 
-**Live site:** https://Aluwu.github.io/Budgeting_Tools
-
 ## What it does
 
-McLeod Budgeting is a personal finance dashboard built for fast monthly planning without a backend. Everything is stored in browser `localStorage`, so the app works as a static GitHub Pages site and keeps your data on your device.
+McLeod Budgeting is a personal finance dashboard built for fast monthly planning without a backend. Everything is stored in browser `localStorage`, so the app works as a static site and keeps your data on your device.
 
 ## Highlights
 
@@ -31,7 +29,7 @@ McLeod Budgeting is a personal finance dashboard built for fast monthly planning
 - `src/App.jsx` - app entry wrapper
 - `src/main.jsx` - React bootstrap
 - `src/index.css` - Tailwind base styles
-- `vite.config.js` - GitHub Pages base path
+- `vite.config.js` - Vite base path
 - `package.json` - scripts and dependencies
 
 ## Run Locally
@@ -47,26 +45,7 @@ npm run dev
 npm run build
 ```
 
-## Deploy to GitHub Pages
-
-```bash
-npm run deploy
-```
-
-Before deploying, make sure these values match your repository:
-
-- `homepage` in `package.json` should point to your Pages URL
-- `base` in `vite.config.js` should be set to `/<repo-name>/`
-
-Then in GitHub:
-
-1. Open the repository settings.
-2. Go to Pages.
-3. Set the source to the `gh-pages` branch.
-4. Use the `/ (root)` folder.
-
 ## Notes
 
 - The app does not use a backend database.
 - Data persists in the browser unless the user clears site storage.
-- The deployed site is a static build, so it is safe for GitHub Pages.
